@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabriel Ortiz</title>
+    <style>
+        :root {
+            --bg-color: #ffffff;
+            --text-color: #222222;
+            --link-color: #0056b3;
+            --sidebar-width: 240px;
+            --border-color: #e5e5e5;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+
+        aside {
+            width: var(--sidebar-width);
+            border-right: 1px solid var(--border-color);
+            padding: 2.5rem 1.5rem;
+            box-sizing: border-box;
+            position: fixed;
+            height: 100vh;
+            top: 0;
+            left: 0;
+            background-color: #fafafa;
+        }
+
+        aside h1 {
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-top: 0;
+            margin-bottom: 0.25rem;
+        }
+
+        aside .subtitle {
+            font-size: 0.85rem;
+            color: #666;
+            margin-bottom: 2rem;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav li {
+            margin-bottom: 0.75rem;
+        }
+
+        nav a {
+            color: var(--link-color);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            margin-left: var(--sidebar-width);
+            padding: 3rem 4rem;
+            max-width: 800px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        section {
+            margin-bottom: 3.5rem;
+        }
+
+        h2 {
+            font-size: 1.4rem;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 0.4rem;
+            margin-top: 0;
+            margin-bottom: 1.2rem;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                flex-direction: column;
+            }
+            aside {
+                width: 100%;
+                height: auto;
+                position: relative;
+                border-right: none;
+                border-bottom: 1px solid var(--border-color);
+                padding: 1.5rem;
+            }
+            main {
+                margin-left: 0;
+                padding: 1.5rem;
+            }
+        }
+    </style>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+
+    <aside>
+        <h1>Gabriel Ortiz</h1>
+        <div class="subtitle">Economia & Finanças Quantitativas</div>
+        
+        <nav>
+            <ul>
+                <li><a href="#risco">Risco</a></li>
+                <li><a href="#comportamental">Comportamental</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <main>
+        <section id="risco">
+            <h2>Risco</h2>
+            <p>Análises, modelos e anotações sobre risco financeiro, modelagem quantitativa e regulação bancária.</p>
+        </section>
+
+        <section id="comportamental">
+            <h2>Comportamental</h2>
+            <p>Publicações e pesquisas focadas em economia comportamental e tomada de decisão sob incerteza.</p>
+        </section>
+    </main>
+
+</body>
+</html>
