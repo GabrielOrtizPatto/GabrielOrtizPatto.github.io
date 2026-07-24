@@ -16,5 +16,5 @@ website:
         
 format:
   html:
-    theme: journal
+    theme: lux
     toc: true
