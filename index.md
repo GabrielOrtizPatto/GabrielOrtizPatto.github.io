@@ -1,5 +1,5 @@
 ---
-title: "Gabriel Ortiz"
+title: ""
 image: Perfil.png
 about:
   template: trestles
