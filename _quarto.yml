@@ -16,5 +16,5 @@ website:
         
 format:
   html:
-    theme: lux
+    theme: morph
     toc: true
