@@ -1,6 +1,6 @@
 ---
 title: "Gabriel Ortiz"
-image: profile.png
+image: Perfil.png
 about:
   template: trestles
   links:
