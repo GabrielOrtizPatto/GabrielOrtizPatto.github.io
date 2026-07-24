@@ -9,11 +9,7 @@ website:
     contents:
       - text: "Home"
         href: index.md
-      - text: "Sobre / CV"
-        href: cv.md
-      - text: "Artigos & Análises"
-        href: artigos.md
-
+        
 format:
   html:
     theme: cosmo
