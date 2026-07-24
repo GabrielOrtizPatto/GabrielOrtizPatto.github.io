@@ -9,6 +9,10 @@ website:
     contents:
       - text: "Home"
         href: index.md
+      - text: "Riscos"
+        href: riscos.md
+      - text: "Economia"
+        href: economia.md
         
 format:
   html:
