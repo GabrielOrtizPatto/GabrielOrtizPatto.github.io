@@ -13,4 +13,4 @@ Análises, modelos e anotações sobre risco financeiro, modelagem quantitativa 
 * **Estrutura de Modelos:** Simulações para risco de contraparte.
 
 ## Comportamental
-Publicações e pesquisas focadas em economia comportamental e tomada de decisão sob incerteza.
+Publicações e pesquisas focadas em economia comportamental e tomada de decisão sob incerteza. 
