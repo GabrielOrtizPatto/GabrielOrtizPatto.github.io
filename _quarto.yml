@@ -16,5 +16,5 @@ website:
         
 format:
   html:
-    theme: litera
+    theme: flatly
     toc: true
