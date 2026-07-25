@@ -3,10 +3,9 @@ project:
 
 website:
   title: "Gabriel Ortiz"
-  sidebar:
-    style: "docked"
+  navbar:
     search: true
-    contents:
+    right:
       - text: "Home"
         href: index.md
       - text: "Riscos"
