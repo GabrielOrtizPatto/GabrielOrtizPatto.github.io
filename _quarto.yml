@@ -4,6 +4,7 @@ project:
 website:
   title: "Gabriel Ortiz"
   navbar:
+    pinned: true
     search: true
     right:
       - text: "Home"
