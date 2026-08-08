@@ -1,6 +1,6 @@
 ---
 title: ""
-image: Perfil.png
+image: Perfil.jpg
 about:
   template: trestles
   links:
